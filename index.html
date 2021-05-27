@@ -17,7 +17,26 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+    <div class="container">
+        <section class="weather">
+            <form class="d-flex" id="search-form">
+                <input class="form-control me-2" type="search" id="input-city" required autocomplete="off" placeholder="Kunlar soni (1-16)">
+                <button class="btn btn-success" id="submit-city" type="button">Qidirish</button>
+            </form>
+            <div id="location">
+                <p>..........</p>
+            </div>
+            <div id="temp">
+                <img id="temp-icon" src="./img/weather2nd/4064268-weather/svg/002-sunny.svg" alt="sun">
+                <p><span id="temp-value">.....</span> <span id="temp-degree">&#176c</span></p>
+            </div>
+            <div id="ob-havo">
+                <p>...........</p>
+            </div>
+        </section>
+    </div>
+
 
 
     <script src="./assets/main.js"></script>
