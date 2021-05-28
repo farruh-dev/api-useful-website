@@ -163,13 +163,12 @@ async function getData(){
             let cityName = dayInputElement.value
             e.preventDefault()
             getWeather(cityName)
-            cityName = ''
             
         })
         btnRefreshElement.addEventListener('click' , e => {
             e.preventDefault()
             getData()
-            dayInputElement.value = null
+            dayInputElement.value = ''
         })
 
 
